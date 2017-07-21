@@ -1,0 +1,252 @@
+/*
+  Theme Name: Video Game C Website v1.0
+  Theme URI: http://www.berkekiran.net/vgc
+  Author: Berke KIRAN
+  Author URI: http://www.berkekiran.net/vgc
+  Description: My homework website design
+  Version: 1.0
+*/
+@import url('https://fonts.googleapis.com/css?family=Pavanam');
+@import url('https://fonts.googleapis.com/css?family=Palanquin+Dark');
+html ,body{
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  background-image: url('../images/back01.jpg');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+#content{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+  text-align: center;
+}
+#navi{
+  width: 100%;
+  text-align: center;
+}
+#logo{
+  height: 104px;
+  width: 306px;
+  transition: 0.3s;
+}
+#logo:hover{
+  height: 104px;
+  width: 306px;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+.navi_items{
+  font-size: 14px;
+  font-family: 'Palanquin Dark', sans-serif;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-left: 1px;
+  padding-right: 1px;
+  transition: 0.3s;
+}
+.navi_items:hover{
+  opacity: 0.5;
+  transition: 0.3s;
+}
+#copyright{
+  font-size: 14px;
+  font-family: 'Palanquin Dark', sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+#login{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  margin: auto;
+  transform: translateY(-50%);
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Palanquin Dark', sans-serif;
+  color: #fff;
+  transition: 0.3s;
+}
+#login a{
+  color: #ff2255;
+  text-decoration: none;
+  transition: 0.3s;
+}
+#login a:hover{
+  opacity: 0.5;
+  transition: 0.3s;
+}
+#login button:active{
+  opacity: 1;
+  background-color: #ff2255;
+  transition: 0.3s;
+}
+#login-form input{
+  font-family: 'Pavanam', sans-serif;
+  margin-bottom: 6px;
+  height: 32px;
+  width: 200px;
+  padding: 7px;
+  border: 0;
+}
+#login-form button{
+  font-family: 'Pavanam', sans-serif;
+  margin-bottom: 6px;
+  height: 32px;
+  width: 200px;
+  padding: 7px;
+  border: 0;
+  background-color: #6699ff;
+  color: #fff;
+  transition: 0.3s;
+}
+#login-form button:hover{
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+.title-main{
+  font-family: 'Palanquin Dark', sans-serif;
+  color: #999;
+  font-size: 18px;
+}
+.top-up-games a{
+  text-decoration: none;
+  transition: 0.3s;
+}
+.top-up-games a:hover{
+  opacity: 0.75;
+  transition: 0.3s;
+}
+.top-up-games img{
+  height: 240px;
+  width: 1024px;
+  filter: brightness(.45);
+  -webkit-filter: brightness(.45);
+}
+.top-up-games .title{
+  position: absolute;
+  margin-left: 44px;
+  margin-top: 140px;
+  z-index: 1;
+  font-family: 'Pavanam', sans-serif;
+  color: #fff;
+  font-size: 24px;
+}
+.top-up-games .title-coming{
+  position: absolute;
+  margin-left: 44px;
+  margin-top: 170px;
+  z-index: 1;
+  font-family: 'Pavanam', sans-serif;
+  color: #999;
+  font-size: 16 px;
+}
+.content-title{
+  font-family: 'Pavanam', sans-serif;
+  color: #fff;
+  font-size: 24px;
+}
+.content-title-2{
+  font-family: 'Pavanam', sans-serif;
+  color: #999;
+  font-size: 16 px;
+}
+.content-title-3{
+  font-family: 'Pavanam', sans-serif;
+  color: #fff;
+  font-size: 16 px;
+}
+.signin{
+  position: absolute;
+  margin-left: 20px;
+  font-size: 14px;
+  font-family: 'Palanquin Dark', sans-serif;
+  color: #ff2255;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.signin:hover{
+  opacity: 0.5;
+  transition: 0.3s;
+}
+#writer{
+  font-family: 'Pavanam', sans-serif;
+  color: #fff;
+  font-size: 14px;
+}
+#writer a{
+  text-decoration: none;
+  font-family: 'Pavanam', sans-serif;
+  color: #ff8822;
+  font-size: 14px;
+}
+#writer a:hover{
+  opacity: 0.5;
+  transition: 0.3s;
+}
+#post{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  margin: auto;
+  transform: translateY(-50%);
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Palanquin Dark', sans-serif;
+  color: #fff;
+  transition: 0.3s;
+}
+#post a{
+  color: #ff2255;
+  text-decoration: none;
+  transition: 0.3s;
+}
+#post a:hover{
+  opacity: 0.5;
+  transition: 0.3s;
+}
+#post button:active{
+  opacity: 1;
+  background-color: #ff2255;
+  transition: 0.3s;
+}
+#post-form input{
+  font-family: 'Pavanam', sans-serif;
+  margin-bottom: 6px;
+  height: 32px;
+  width: 200px;
+  padding: 7px;
+  border: 0;
+}
+#post-form select{
+  font-family: 'Pavanam', sans-serif;
+  margin-bottom: 6px;
+  height: 32px;
+  width: 200px;
+  padding: 7px;
+  border: 0;
+}
+#post-form button{
+  font-family: 'Pavanam', sans-serif;
+  margin-bottom: 6px;
+  height: 32px;
+  width: 200px;
+  padding: 7px;
+  border: 0;
+  background-color: #6699ff;
+  color: #fff;
+  transition: 0.3s;
+}
+#post-form button:hover{
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.3s;
+}
